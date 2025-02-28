@@ -25,7 +25,7 @@ class RoleViewSet(viewsets.ModelViewSet):
 # ChurchRole Viewsets
 class ChurchRoleViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.ChurchesRolesSerializer
-    queryset = models.Role.objects.all()
+    queryset = models.ChurchRole.objects.all()
 
 # Reference Viewset
 class ReferenceViewSet(viewsets.ModelViewSet):

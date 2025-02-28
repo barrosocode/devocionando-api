@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     # 'https://devocionando-api-production.up.railway.app/',
-    'devocionando-api-production.up.railway.app'
+    'devocionando-api-production.up.railway.app',
+    "127.0.0.1",  # Para testes locais
+    "localhost"
 ]
 
 
