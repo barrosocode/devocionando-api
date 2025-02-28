@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-nbd#&5_d_0r$b1n6$j32o74g=#o-iat#mtz8^w-60bi)+%8&as
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://devocionando-api-production.up.railway.app/'
+    # 'https://devocionando-api-production.up.railway.app/',
+    'devocionando-api-production.up.railway.app'
 ]
 
 
