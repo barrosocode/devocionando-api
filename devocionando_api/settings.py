@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-nbd#&5_d_0r$b1n6$j32o74g=#o-iat#mtz8^w-60bi)+%8&as
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://devocionando-api-production.up.railway.app/'
+]
 
 
 # Application definition
