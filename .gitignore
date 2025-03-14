@@ -1,0 +1,22 @@
+# Banco de dados SQLite
+# db.sqlite3
+# *.sqlite3
+
+# Pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações do ambiente virtual
+venv/
+.env
+*.env
+
+# Arquivos de logs
+*.log
+logs/
+
+# Arquivos gerados pelo Django
+media/
+staticfiles/
