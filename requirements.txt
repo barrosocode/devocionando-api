@@ -1,4 +1,5 @@
 Django
 gunicorn
 djangorestframework
-# psycopg2-binary  # Se for usar PostgreSQL
+django-cors-headers # Adicionando o gerenciamento de cors aos requerimentos
+whitenoise==6.9.0

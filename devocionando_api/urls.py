@@ -21,6 +21,10 @@ from django.urls import path, include
 from rest_framework import routers
 from api.api import viewsets as apiviewsets
 
+# Configurações de arquivos estáticos
+from django.conf import settings
+from django.conf.urls.static import static
+
 # Route
 route = routers.DefaultRouter()
 
@@ -38,3 +42,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(route.urls))
 ]
+
+# Servir mídia apenas no desenvolvimento
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
