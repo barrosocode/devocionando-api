@@ -150,6 +150,10 @@ CORS_ALLOW_HEADERS = [
     "x-csrf-token",
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOW_CREDENTIALS = True
+
 # Configuração de gerenciamento de arquivos estáticos
 import os
 
