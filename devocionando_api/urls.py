@@ -30,7 +30,7 @@ route = routers.DefaultRouter()
 
 # Rotas registradas
 route.register(r'categories', apiviewsets.CategoryViewSet, basename='Categories')
-route.register(r'churches', apiviewsets.ChurchViewSet, basename='Churchess') # Teste
+route.register(r'churches', apiviewsets.ChurchViewSet, basename='Churches')
 route.register(r'jobs', apiviewsets.JobViewSet, basename='Jobs')
 route.register(r'roles', apiviewsets.RoleViewSet, basename='Roles')
 route.register(r'ChurchRoles', apiviewsets.ChurchRoleViewSet, basename='ChurchRoles')
