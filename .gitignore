@@ -1,6 +1,6 @@
 # Banco de dados SQLite
-# db.sqlite3
-# *.sqlite3
+db.sqlite3
+*.sqlite3
 
 # Pastas do Python
 __pycache__/
